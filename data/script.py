@@ -17,7 +17,6 @@ with open("courses.txt") as f:
     lines = f.readlines()
     for line in lines:
         number, title = line.split(" ", 1)
-        courses.append({"number": number, "title": title.rstrip("\n")})
+        courses.append({"id": number, "number": number, "title": title.rstrip("\n")})
 with open("courses.json", "w") as f:
     json.dump(courses, f)
-

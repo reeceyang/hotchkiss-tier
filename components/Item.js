@@ -6,7 +6,7 @@ export default class Item extends React.Component {
   render() {
     // to forgo color-coding, you could delete `subject` and set `color`
     // to a constant color value, e.g. "#bbb"
-    const subject = this.props.number.split(".")[0]; // for MIT
+    const subject = this.props.number.substring(0, 2); // for Hotchkiss
     const color = colors[subject];
     return (
       <Draggable draggableId={this.props.id} index={this.props.index}>

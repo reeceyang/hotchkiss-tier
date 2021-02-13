@@ -1,13 +1,13 @@
 const CONFIG = {
-  HEADING: "MITier: Tier rank MIT classes", // for the top of the page
+  HEADING: "Hotchkiss Tier: Tier rank Hotchkiss classes", // for the top of the page
   META: {
     // for social sharing, search engine results, etc.
-    TITLE: `MITier: Tier rank MIT classes`,
+    TITLE: `Hotchkiss Tier: Tier rank Hotchkiss classes`,
     DESCRIPTION: `All in the title`,
-    URL: `https://mitier.vercel.app`,
-    SITE_NAME: `MITier`,
+    URL: `https://hotchkiss-tier.vercel.app/`,
+    SITE_NAME: `Hotchkiss Tier`,
     IMAGE_URL: `https://mitier.vercel.app/screenshot.jpg`, // full path, not relative
-    IMAGE_ALT_TEXT: `Example tier list of MIT classes`,
+    IMAGE_ALT_TEXT: `Example tier list of MIT classes`, // FIXME: update this
   },
   INITIAL_TIERS: {
     // object containing tier : list of classes
