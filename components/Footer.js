@@ -1,7 +1,7 @@
 const Footer = () => (
   <footer>
     <p>
-      <a href="https://github.com/katmh/mitier">source code</a>
+      <a href="https://github.com/reeceyang/hotchkiss-tier">source code</a>
     </p>
     <style jsx>{`
       footer {

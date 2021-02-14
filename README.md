@@ -61,3 +61,9 @@ The original/MIT version uses colors from [Courseroad](https://courseroad.mit.ed
 ### 4. Deploy to Vercel
 
 [Vercel](https://vercel.com/) is a platform that's really good for hosting websites built with Next.js, like this one.
+
+## To Do
+- [ ] update source code link
+- [ ] don't use my own classes as the initial courses?
+- [ ] update the config.js metadata screenshot
+- [ ] update the READMEs?

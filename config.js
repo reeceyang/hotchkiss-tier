@@ -26,7 +26,7 @@ const CONFIG = {
     D: "#beff7f",
   },
   SEARCH: {
-    INPUT_PLACEHOLDER: "Search courses",
+    INPUT_PLACEHOLDER: "Search to add courses",
     NO_RESULTS_MESSAGE: "No results :(",
     LOADING_MESSAGE: "Loading...",
   },
