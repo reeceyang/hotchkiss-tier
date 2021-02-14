@@ -6,12 +6,12 @@ const CONFIG = {
     DESCRIPTION: `All in the title`,
     URL: `https://hotchkiss-tier.vercel.app/`,
     SITE_NAME: `Hotchkiss Tier`,
-    IMAGE_URL: `https://mitier.vercel.app/screenshot.jpg`, // full path, not relative
-    IMAGE_ALT_TEXT: `Example tier list of MIT classes`, // FIXME: update this
+    IMAGE_URL: `https://hotchkiss-tier.vercel.app/screenshot.png`, // full path, not relative
+    IMAGE_ALT_TEXT: `Example tier list of Hotchkiss classes`,
   },
   INITIAL_TIERS: {
     // object containing tier : list of classes
-    S: ["EN490Y", "HI460F", "EC480Y", "FR590Y", "MU491-497F/S", "MA691F"], // course IDs
+    S: [], // course IDs
     A: [],
     B: [],
     C: [],
