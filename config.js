@@ -30,7 +30,7 @@ const CONFIG = {
     NO_RESULTS_MESSAGE: "No results :(",
     LOADING_MESSAGE: "Loading...",
   },
-  SOURCE_CODE_URL: "https://github.com/katmh/mitier",
+  SOURCE_CODE_URL: "https://github.com/reeceyang/hotchkiss-tier",
 };
 
 export default CONFIG;
