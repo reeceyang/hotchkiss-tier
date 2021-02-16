@@ -1,17 +1,17 @@
 const CONFIG = {
-  HEADING: "MITier: Tier rank MIT classes", // for the top of the page
+  HEADING: "Hotchkiss Tier: Tier rank Hotchkiss classes", // for the top of the page
   META: {
     // for social sharing, search engine results, etc.
-    TITLE: `MITier: Tier rank MIT classes`,
+    TITLE: `Hotchkiss Tier: Tier rank Hotchkiss classes`,
     DESCRIPTION: `All in the title`,
-    URL: `https://mitier.vercel.app`,
-    SITE_NAME: `MITier`,
-    IMAGE_URL: `https://mitier.vercel.app/screenshot.jpg`, // full path, not relative
-    IMAGE_ALT_TEXT: `Example tier list of MIT classes`,
+    URL: `https://hotchkiss-tier.vercel.app/`,
+    SITE_NAME: `Hotchkiss Tier`,
+    IMAGE_URL: `https://hotchkiss-tier.vercel.app/screenshot.png`, // full path, not relative
+    IMAGE_ALT_TEXT: `Example tier list of Hotchkiss classes`,
   },
   INITIAL_TIERS: {
     // object containing tier : list of classes
-    S: ["8.01", "8.02", "18.01", "18.02", "7.012", "5.111"], // course IDs
+    S: [], // course IDs
     A: [],
     B: [],
     C: [],
@@ -26,7 +26,7 @@ const CONFIG = {
     D: "#beff7f",
   },
   SEARCH: {
-    INPUT_PLACEHOLDER: "Search courses",
+    INPUT_PLACEHOLDER: "Search to add courses",
     NO_RESULTS_MESSAGE: "No results :(",
     LOADING_MESSAGE: "Loading...",
   },
